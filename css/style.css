@@ -7,8 +7,101 @@ Copyright 2013, Josh Cope
    Site Styles
    ========================================================================== */
 .wbox{
+	background: #111;
+}
+
+.ban{
+	margin-bottom: 0px;
+}
+
+h3{
+	font-family: 'Jolly Lodger', cursive;
+	font-size: 28px;
+}
+body{
+	background: #222;
+	color: #FFFFFF;
+	font-family: 'Balthazar', serif;
+	font-size: 19px;
+}
+ul{
+    list-style: none;
+    
+}
+nav{
+	background:#111111;
+	margin-top: 0px;
+	margin-left: 0px;
+	padding: 0px;
+	margin-bottom: 45px;
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Jolly Lodger', cursive;
+	font-size: 20px;
+}
+nav ul{
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+
+}
+nav li a{
+		text-decoration: none;
+		color: #a81111;
+}
+
+nav li{
+	text-align: center;
+	display: block;
+	margin: 0px;
+	color: #fff;
+	padding: 02px 61px 2px 50px;
+	background: #111111;
+} 
+
+nav ul ul{
+	display: none;
+}
+nav ul li:hover{
+	background: #7d1d1d;
+}
+nav ul li:hover > ul{
+	display: block;
+
+}
+nav ul li {
+	float: left;
+}
+nav ul li:hover a {
+	color: #fff;
+
+}
+	
+nav ul li a {
+		display: block;
+		text-decoration: none;
+}
+nav ul ul{
+margin: 0px 0px 0px 0px;
+}
+nav ul ul li {
+	float: none; 
+	position: relative;
+
 	
 }
+nav ul ul li a {
+	margin:0px;
+	text-align: center;
+	color: #fff;
+	background: #111;
+	padding: 3px 30px;
+}	
+
+nav ul ul li a:hover {
+		background: #7d1d1d;
+}
+
 /* =============================================================================
    Page Styles
    ========================================================================== */
