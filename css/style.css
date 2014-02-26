@@ -19,7 +19,7 @@ h3{
 	font-size: 28px;
 }
 body{
-	background: #222;
+	background-image: url("../images/back.jpg");
 	color: #FFFFFF;
 	font-family: 'Balthazar', serif;
 	font-size: 19px;
@@ -51,11 +51,11 @@ nav li a{
 }
 
 nav li{
-	text-align: center;
+	text-align: left;
 	display: block;
-	margin: 0px;
 	color: #fff;
-	padding: 02px 61px 2px 50px;
+	padding: 02px 61px 2px 53px;
+	margin: 0px;
 	background: #111111;
 } 
 
@@ -91,7 +91,7 @@ nav ul ul li {
 	
 }
 nav ul ul li a {
-	margin:0px;
+	margin: 0px 0px 0px 0px;
 	text-align: center;
 	color: #fff;
 	background: #111;
